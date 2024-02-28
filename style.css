@@ -1,0 +1,161 @@
+* {
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+#graybox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+#box-text {
+    background-color: lightgray;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 26px;
+    padding-right: 26px;
+    font-size: 8px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    width: 296px;
+    height: 240px;
+    margin: 20px auto 12px auto;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.card h1 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+.card label {
+    font-size: 12px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+
+.card input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3px;
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 1px;
+    padding: 5px;
+}
+
+.card button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14px;
+    background-color: #eec13a;
+    border: 1px solid darkgray;
+    border-radius: 2px;
+}
+
+#continue {
+    font-size: 11px;
+    padding: 5px 22px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+#pw {
+    margin-left: 25px;
+}
+
+#forgot-pw {
+    margin-left: 80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#help {
+    margin-top: 16px;
+    margin-left: 8px;
+    font-size: 13px;
+}
+
+.divider-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divider {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: darkgray;
+}
+
+.divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: .5px;
+    background-color: darkgray;
+    margin: 8px;
+    width: 8em;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#account-button {
+    margin-top: 8px;
+}
+
+#create-account {
+    font-size: 11px;
+    padding: 4px 8em;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+
+.footer {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 2px solid lightgray;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
